@@ -1,0 +1,66 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+ 
+body {
+    background-color: palevioletred;
+}
+
+button {
+    padding: 5px;
+    margin-left: 70rem;
+    border-radius: 20px;
+    background-color: pink;
+}
+
+.paragraph{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.paragraph h4 {
+    margin-top: 1rem;
+    background-color: pink;
+}
+
+.paragraph img:hover{
+    transform: scale(1.1);
+    transition: .3s;    
+}
+
+.paragraph img {
+    width: 20rem;
+}
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: pink;
+    border-bottom: 1px black solid;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.info img {
+    border-radius: 90%;
+    width: 50px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.info span {
+    color: red;
+    margin-left: 1rem;
+}
+
+.info h3 {
+    margin-left: 5rem;
+}
